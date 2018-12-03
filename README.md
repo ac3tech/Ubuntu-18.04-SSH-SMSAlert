@@ -8,15 +8,19 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-PostFix & it's requirements 
+1. PostFix and it's requirements
 
 ```
 sudo apt install mailutils
 ```
+For additional help with settingup PostFix: https://computingforgeeks.com/how-to-install-and-configure-postfix-as-a-send-only-smtp-server-on-ubuntu-18-04-lts/
+
+2. Your Cellphone providers Email to SMS
+    * https://teamunify.uservoice.com/knowledgebase/articles/57460-communication-email-to-sms-gateway-list
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+Clone this Repository 
 
 Say what the step will be
 
