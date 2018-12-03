@@ -28,14 +28,27 @@ sudo apt install git
 
 ### Installing
 
-Clone this Repository and run setup.sh
+**Clone the Repository**
 
 ```
-git clone https://github.com/ac3tech/Ubuntu-18.04-SSH-SMSAlert.git
+git clone https://github.com/ac3tech/Ubuntu-18.04-SSH-SMSAlert.git && cd Ubuntu-18.04-SSH-SMSAlert 
 ```
 
+**Edit smsalert.sh and configure your providers email to sms**
 ```
-cd Ubuntu-18.04-SSH-SMSAlert && sudo cp smsalert /etc/profile.d
+sudo nano smsalert.sh
+```
+**Edit "5555555555@yourprovider.com and input your providers sms to email**
+```
+if [ -n "$SSH_CLIENT" ]; then
+    TEXT="$(date): ssh login to ${USER}@$(hostname -f)"
+    TEXT="$TEXT from $(echo $SSH_CLIENT|awk '{print $1}')"
+    echo $TEXT|mail -s "ssh login" YourPhoneNumber@yourprovider.com
+fi
+```
+**Move smsalert.sh to profile.d**
+```
+sudo cp smsalert /etc/profile.d
 ```
 
 
