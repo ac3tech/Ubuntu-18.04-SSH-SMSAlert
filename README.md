@@ -31,14 +31,13 @@ sudo apt install git
 Clone this Repository and run setup.sh
 
 ```
-git clone 
+git clone https://github.com/ac3tech/Ubuntu-18.04-SSH-SMSAlert.git
 ```
 
 ```
-cd Ubuntu-18.04-SSH-SMSAlert && sudo ./setup.sh
+cd Ubuntu-18.04-SSH-SMSAlert && sudo cp smsalert /etc/profile.d
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
