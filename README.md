@@ -1,6 +1,6 @@
 # SMS Alert
 
-Texts you when someone logs into your ubuntu server
+Texts you when someone logs into your ubuntu server (this is my first post sorry if it looks like crap ;) )
 
 ## Getting Started
 
