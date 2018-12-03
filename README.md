@@ -8,36 +8,34 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-1. PostFix and it's requirements
+1. **PostFix and it's requirements**
 
 ```
 sudo apt install mailutils
 ```
 For additional help with settingup PostFix: https://computingforgeeks.com/how-to-install-and-configure-postfix-as-a-send-only-smtp-server-on-ubuntu-18-04-lts/
 
-2. Your Cellphone providers Email to SMS
+
+
+2. **Your Cellphone providers Email to SMS**
     * https://teamunify.uservoice.com/knowledgebase/articles/57460-communication-email-to-sms-gateway-list
   
   
-3. Git
+3. **Git and its requirements**
 ```
 sudo apt install git
 ```
 
 ### Installing
 
-Clone this Repository 
-
-Say what the step will be
+Clone this Repository and run setup.sh
 
 ```
-Give the example
+git clone 
 ```
 
-And repeat
-
 ```
-until finished
+cd Ubuntu-18.04-SSH-SMSAlert && sudo ./setup.sh
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
