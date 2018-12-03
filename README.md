@@ -1,6 +1,6 @@
-# Project Title
+# SMS Alert
 
-One Paragraph of project description goes here
+Texts you when someone logs into your ubuntu server
 
 ## Getting Started
 
@@ -8,10 +8,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+PostFix & it's requirements 
 
 ```
-Give examples
+sudo apt install mailutils
 ```
 
 ### Installing
