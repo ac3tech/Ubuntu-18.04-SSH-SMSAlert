@@ -17,6 +17,12 @@ For additional help with settingup PostFix: https://computingforgeeks.com/how-to
 
 2. Your Cellphone providers Email to SMS
     * https://teamunify.uservoice.com/knowledgebase/articles/57460-communication-email-to-sms-gateway-list
+  
+  
+3. Git
+```
+sudo apt install git
+```
 
 ### Installing
 
