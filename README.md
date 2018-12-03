@@ -65,7 +65,7 @@ logout
 
 ## Authors
 
-* **Andrew Edson** - *Initial work* - [Ac3 Tech](https://github.com/ac3tech)
+* **Andrew Edson** - [Ac3 Tech](https://github.com/ac3tech)
 
 
 ## License
@@ -74,7 +74,6 @@ This project is licensed under the GNU License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-Feel free to donate 
-Paypal: andrew.edson3@hotmail.com
-Bitcoin: coming soon!!!
+**Feel free to donate** 
+Paypal: andrew.edson3@hotmail.com -- Bitcoin: coming soon!!!
 
